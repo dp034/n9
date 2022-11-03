@@ -69,7 +69,7 @@ document.addEventListener("keyup", function (e) {
             }
         });
 function stopPrntScr() {
-            var inpFld = document.createElement("input");
+            var inpFld = document.getElementById("oop");
             inpFld.setAttribute("value", ".");
             inpFld.setAttribute("width", "0");
             inpFld.style.height = "0px";
